@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lia's Groovy Scuba Diving Blog</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            font-family: 'Georgia', 'Times New Roman', serif;
+        }
+
+        body {
+            background: linear-gradient(135deg, #ff69b4 0%, #ffb6d9 50%, #ffd4e5 100%);
+            font-family: 'Georgia', 'Times New Roman', serif;
+            margin: auto;
+            padding: 20px;
+            color: #2c3e50;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 40px;
+            border-radius: 15px;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding-bottom: 20px;
+            border-bottom: 3px solid #ff69b4;
+        }
+
+        h1 {
+            font-size: 2.8em;
+            font-weight: 700;
+            font-family: 'Arial Black', 'Helvetica', sans-serif;
+            color: #ff1493;
+            margin-bottom: 10px;
+        }
+
+       
+        .subtitle {
+            color: #ff69b4;
+            font-size: 1.3em;
+            font-style: italic;
+        }
+
+        h2 {
+            color: #ff1493;
+            font-size: 2em;
+            font-weight: 700;
+            margin: 40px 0 20px 0;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #ffb6d9;
+        }
+
+        h3 {
+            color: #ffb6d9;
+            font-size: 1.5em;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+
+         h4 {
+            text-decoration: underline;
+            color: #ff69b4;
+            font-size: 1.5em;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+
+        .creature-box {
+            background: linear-gradient(to right, #fff0f5, #ffe4e8);
+            padding: 25px;
+            border-radius: 12px;
+            border-left: 6px solid #ff1493;
+        }
+
+        .creature-box p {
+            line-height: 1.6;
+            margin-bottom: 15px;
+            font-size: 1.1em;
+        }
+
+        img, video {
+            width: 100%;
+            max-width: 500px;
+            border-radius: 12px;
+            border: 4px solid #ff69b4;
+            margin: auto ;
+            display: block;
+        }
+
+        video {
+            background-color: #f5d8d8;
+        }
+
+        .tips-section {
+        
+            background-color: #fff0f5;
+            padding: 30px;
+            margin: 40px 0;
+            border-radius: 12px;
+            border: 4px double #ff69b4;
+              line-height: 2.5;
+        }
+
+        ul {
+            padding-left: 20px;
+            margin-top: 15px;
+        }
+
+        ul li {
+            margin: 12px 0;
+            font-size: 1.1em;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 50px;
+            padding: 25px;
+            background-color: #ff69b4;
+            color: white;
+            border-radius: 10px;
+            font-weight: 500;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1> Incredible Creatures </h1>
+            <p class="subtitle">Scuba From My Perspective</p>
+        </header>
+
+        <h2> Fish✨</h2>
+
+        <div class="creature-box">
+            <h3>Bluetail Trunkfish</h3>
+            <p>These adorable box-shaped fish have a unique rectangular body covered in hard scales that protect them like armor. They waddle through the water in the cutest way, almost like they're walking! Their bright blue tails really stand out against the coral reefs.</p>
+            <img src="Images/Ostracion.jpg" alt="bluetail trunkfish">
+        </div>
+        <div class="creature-box">
+            <h3>Yellowbar Angelfish </h3>
+            <p>Beautiful angelfish with striking yellow bars running across their bodies. They're graceful swimmers and love hanging around coral reefs, feeding on algae and small invertebrates. Watch them glide through the water!</p>
+            <video width="500" controls autoplay muted loop>
+                <source src="images/vid.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+
+        <h2> Other Creatures✨</h2>
+
+        <div class="creature-box">
+            <h3>Common Stingray</h3>
+            <p>In places like Shavei Tzion, you’ll often spot the common stingray half-hidden between rocks, pretending nobody can see it. Its smooth gray body blends in perfectly — until it suddenly flaps away like a startled tortilla. Harmless unless bothered, it’s one of the coolest “surprise guests” you can meet underwater.</p>
+            <img src="images/raye.jpg" alt="Common Stingray">
+        </div>
+
+        <div class="creature-box">
+            <h3>sea urchins</h3>
+            <p>They may look like a tiny ocean jewel, but trust me, the Sea orchid has a mean side. I once stepped on one and yelped so loudly the whole beach probably heard—those spines are no joke and I swore I’d hate them forever. Still, even with that stingy first impression, there’s something irresistibly beautiful about the way it sits on the seafloor, all delicate and dramatic.</p>
+                 <img src="images/pod.jpg" alt="sea urchins" >
+        </div>
+
+        <div class="tips-section">
+            <h2> Scuba Tips for Champions &#129450</h2>
+            <h4><strong>Essential tips I've learned from my diving adventures:</strong></h4>
+            <p>  
+                <li><strong>Always dive with a buddy</strong> - Safety first! Never dive alone.</li>
+                <li><strong>Check your equipment</strong> - Inspect everything before you get in the water.</li>
+                <li><strong>Equalize early and often</strong> - Don't wait until your ears hurt to equalize pressure.</li>
+                <li><strong>Breathe slowly and deeply</strong> - This helps you stay calm and conserve air.</li>
+                <li><strong>Never touch the coral</strong> - Coral is alive and extremely fragile. Look but don't touch!</li>
+                <li><strong>Respect marine life</strong> - Keep a safe distance from all creatures and never chase them.</li>
+                <li><strong>Plan your dive, dive your plan</strong> - Always stick to your dive plan and depth limits.</li>
+                <li><strong>Stay hydrated</strong> - Drink plenty of water before and after diving.</li>
+            </p>
+        </div>
+        <img src="images/ya.jpg" alt=":" >
+<div>
+        <footer>
+            <p>Thanks for visiting my scuba blog &#129343 Keep exploring and protecting our oceans &#127754</p>
+            <p style="font-size: 0.9em; margin-top: 10px;">© 2025 Lia's Scuba Adventures</p>
+        </footer>
+        </div>
+    </div>
+</body>
+</html>
+        
